@@ -1,0 +1,116 @@
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.tr {
+	text-align: right;
+}
+
+.tc {
+	text-align: center;
+}
+
+.minispace {
+	margin-left: 10px;
+}
+
+.space {
+	margin-left: 100px;
+}
+
+.widespace {
+	margin-left: 250px;
+}
+
+.miniF {
+	font-size: 12px !important;
+}
+
+body {
+	font-family: arial !important;
+}
+
+.vipOptions {
+	margin-top: 80px;
+}
+
+.vipOptions > ul {
+	list-style: none;
+}
+
+.vipOptions > ul > li {
+	float: left;
+	font-family: arial !important;
+	margin-right: 10px;
+}
+
+.vipOptions > ul > li > button > span {
+	font-family: arial !important;
+}
+
+.vip-paging {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.vip-view {
+	height: 440px;
+	overflow-y: auto;
+}
+
+.vip-view > table, td, th {
+	border: 2px solid #000;
+}
+
+.editThWidth > tr > th {
+	width: 300px;
+	background-color: #D9EDF7;
+}
+
+.showGridResults > tr > td {
+	padding: 10px 0 0 10px;
+}
+
+.vipPop {
+	padding: 0;
+	border: 1px solid #000;
+	border-radius: 10px;
+	position: fixed;
+	z-index: 11;
+	top: 30%;
+	background-color: #fff;
+}
+
+.vipHeadPop {
+	background-color: #085394;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.vipHeadPop > span {
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	padding-left: 10px;
+}
+
+.vipHeadPop > i {
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 3px;
+	padding-right: 10px;
+}
+
+.vipHeadPop > i:hover {
+	color: #FF5D5D;
+	cursor: pointer;
+}
+
+.vipBodyPop {
+	padding: 10px;
+}

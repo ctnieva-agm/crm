@@ -1,0 +1,1590 @@
+.iRound
+{
+	display: inline-block;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
+	-moz-box-shadow: 0px 0px 2px #999999;
+	-webkit-box-shadow: 0px 0px 2px #999999;
+	box-shadow: 0px 0px 2px #999999;
+	padding: 5px;
+	font-size: 25px;
+	color: #999999;
+	background-color: #eeeeee;
+	border-color: #999999;
+	cursor:pointer;
+}
+.contentWrapper
+{
+	margin-top: 100px;
+	margin-right: 0;
+}
+
+.contactsContainer
+{
+	background-color:#fff;
+	width: 100%;
+}
+
+ div.loadingBackground {
+	padding-top:230px;
+    opacity:0.7;
+    filter: alpha(opacity=20);
+    background-color:#000; 
+    width:100%; 
+    height:100%; 
+    z-index:10;
+    top:0; 
+    left:0; 
+    position:fixed; 
+  }
+.loadingBackground  img
+{
+	width:10%;
+	
+}
+.form-inline
+{
+	display:inline;
+	width:auto;
+}
+a
+{
+	cursor:pointer;
+}
+table
+{
+	font-size:12px;
+	margin: 0px auto;
+}
+.table-responsive
+{
+	height:500px;
+	width: 850px;
+	
+}
+
+.table-hover > tbody > tr:hover{
+  background-color: #d9edf7!important;
+}
+.table-hover
+{
+	background-color: #e6e6e6;
+}
+.btn
+{
+	font-size:12px;
+}
+
+/* v2.0 */
+#groups-icon-2pointzero {
+	position: fixed;
+	z-index: 8;
+	margin-top: -20px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #000;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#groups-icon-2pointzero > i:nth-child(1) {
+	position: absolute;
+	z-index: 7;
+	margin: 0 0 0 5px;
+	padding-top: 8px;
+	color: #085394;
+}
+
+#groups-icon-2pointzero > i:nth-child(2) {
+	position: absolute;
+	z-index: 8;
+	margin: 5px 0 0 12px;
+	padding-top: 8px;
+	color: #963232;
+}
+
+#groups-icon-2pointzero > i:nth-child(3) {
+	position: absolute;
+	z-index: 6;
+	margin: 0 0 0 20px;
+	padding-top: 8px;
+	color: #329032;
+}
+
+#groups-2pointzero {
+	width: 30%;
+	height: 88%;
+	position: fixed;
+	z-index: 9;
+	border: 1px solid #000;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top: -27px;
+	margin-left: -33.3%;
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+.groups-header-2pointzero {
+	background-color: #0070D2;
+}
+
+.groups-body-2pointzero {
+	height: 93.6%;
+	background-color: #fff;
+	border-bottom-right-radius: 10px;
+}
+
+#groups-close-2pointzero {
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	padding: 10px;
+}
+
+.groups-add-2pointzero {
+	float: right;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.groups-add-pop-2pointzero {
+	width: 45%;
+	height: 60%;
+	position: fixed;
+	z-index: 11;
+	left: 50%;
+	margin: 2% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.groups-add-pop-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.groups-add-pop-2pointzero > form {
+	padding: 3%;
+}
+
+#groups-name-2pointzero {
+	margin: 1%;
+}
+
+#groups-add-form-2pointzero > div {
+	margin: 1%;
+}
+
+#groups-edit-form-change-2pointzero {
+	margin: 0 10px 0 0;
+}
+
+.groups-name-valid1-2pointzero {
+	color: #DE893D;
+}
+
+.groups-name-valid2-2pointzero {
+	color: #DE893D;
+}
+
+#groups-filter-2pointzero {
+	margin-right: 3%;
+}
+
+.groups-table-div-2pointzero {
+	height: 60%;
+	border: 1px solid #000;
+	overflow-y: auto;
+	padding: 1%;
+}
+
+.groups-table-2pointzero {
+	width: 100%;
+	list-style: none;
+	padding: 0;
+}
+
+.groups-table-2pointzero > li:hover {
+	color: #0B8C9A;
+	cursor: pointer;
+}
+
+.groups-add-form-submit-2pointzero {
+	float: right;
+	margin: 1%;
+}
+
+.groups-add-form-cancel-2pointzero {
+	float: right;
+	margin: 1%;
+}
+
+.groups-success-2pointzero {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.groups-success-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.groups-success-2pointzero > center {
+	padding-top: 3%;
+}
+
+.groups-success-2pointzero > center > span {
+	font-size: 40px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.groups-show-registered-2pointzero {
+	padding: 25px 10px 5px 5px;
+	overflow-y: auto;
+}
+
+.groups-show-registered-2pointzero > h4:hover {
+	color: #0B8C9A;
+	cursor: pointer;
+}
+
+.groups-edit-pop-2pointzero {
+	width: 45%;
+	height: 60%;
+	position: fixed;
+	z-index: 11;
+	left: 50%;
+	margin: 2% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.groups-edit-pop-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.groups-edit-pop-2pointzero > h4 > i {
+	float: right;
+	cursor: pointer;
+	margin: -3px 0 0 0;
+}
+
+#groups-edit-form-2pointzero {
+	padding: 1%;
+}
+
+.groups-edit-result-2pointzero {
+	height: 60%;
+	padding: 1%;
+	margin: 2%;
+	border: 1px solid #000;
+	overflow-y: auto;
+}
+
+#groups-edit-name-2pointzero {
+	margin-bottom: 10px;
+}
+
+.groups-edit-list-2pointzero {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.groups-edit-list-2pointzero > li:hover {
+	color: #0B8C9A;
+	cursor: pointer;
+}
+
+.groups-edit-form-add-2pointzero {
+	float: right;
+	margin: -1% 1% 2% 0;
+}
+
+.groups-edit-form-remove-2pointzero {
+	float: right;
+	margin: -1% 1% 2% 0;
+}
+
+.groups-edit-form-cancel-2pointzero {
+	float: right;
+	margin: -1% 2% 2% 0;
+}
+
+.groups-addmem-pop-2pointzero {
+	width: 45%;
+	height: 60%;
+	position: fixed;
+	z-index: 11;
+	left: 50%;
+	margin: 2% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.groups-addmem-pop-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+#groups-addmem-form-2pointzero {
+	padding: 10px;
+}
+
+.groups-addmem-result-2pointzero {
+	height: 300px;
+	border: 1px solid #000;
+	margin: 1% 0 .5% 0;
+	overflow-y: auto;
+}
+
+.groups-addmem-list-2pointzero > li:hover {
+	color: #0B8C9A;
+	cursor: pointer;
+}
+
+.groups-addmem-form-add-2pointzero {
+	float: right;
+	margin: 0 .5% 0 1%;
+}
+
+.groups-addmem-form-cancel-2pointzero {
+	float: right;
+	margin: 0 1% 0 .5%;
+}
+
+.groups-success-change-2pointzero {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.groups-success-change-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.groups-success-change-2pointzero > center > span {
+	font-size: 40px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.groups-fail-change-2pointzero {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.groups-fail-change-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.groups-fail-change-2pointzero > center {
+    margin: 5%;
+}
+
+.groups-success-addmem-2pointzero {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.groups-success-addmem-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.groups-success-addmem-2pointzero > center > span {
+	font-size: 40px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.groups-fail-addmem-2pointzero {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.groups-fail-addmem-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.groups-fail-addmem-2pointzero > center > span {
+	font-size: 40px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.groups-success-remove-2pointzero {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.groups-success-remove-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.groups-success-remove-2pointzero > center > span {
+	font-size: 40px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.groups-fail-remove-2pointzero {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.groups-fail-remove-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.groups-fail-remove-2pointzero > center {
+    margin: 5%;
+}
+
+#new-contacts-2pointzero {
+	width: 70%;
+	height: 60%;
+	position: fixed;
+	z-index: 7;
+	right: 50%;
+	left: 16%;
+	margin: 10px 0 0 0;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+#new-contacts-2pointzero > h4 {
+	height: 25px;
+	background-color: #0070D2;
+    padding: .5%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+#new-contacts-2pointzero > h4 > i {
+	float: right;
+	cursor: pointer;
+	margin: -2px 1px 0 0;
+}
+
+.new-contacts-options-2pointzero {
+	padding: 1%;
+}
+
+.new-contacts-options-2pointzero > .rows:nth-child(2) {
+	margin-top: 10px;
+}
+
+/* .add-form {
+	width: 49.7%;
+	height: 43%;
+	padding-top: 50px;
+} 
+
+.export-temp {
+	width: 49.7%;
+	height: 43%;
+	padding-top: 50px;
+}
+
+.import-excel {
+	width: 49.7%;
+	height: 43%;
+	padding-top: 50px;
+}
+
+.add-to {
+	width: 49.7%;
+	height: 43%;
+	padding-top: 50px;
+}*/
+
+#new-contacts-add-form-2pointzero {
+	width: 70%;
+	height: 80%;
+	position: fixed;
+	z-index: 10;
+	right: 50%;
+	left: 16%;
+	top: 10%;
+	margin: 10px 0 0 0;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+#new-contacts-add-form-2pointzero > h4 {
+	height: 25px;
+	background-color: #0070D2;
+    padding: .5%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.new-contacts-add-field-2pointzero {
+	height: 85%;
+	margin: 1%;
+	padding: 10px;
+	border: 1px solid #000;
+	overflow-y: auto;
+}
+
+.width-under {
+	width: 100%;
+	border-bottom: 1px solid #000;
+}
+
+.new-contacts-field-name-2pointzero {
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.new-contacts-field-email-2pointzero {
+	width: 200px;
+	margin: 0 100px 10px 0;
+}
+
+.new-contacts-field-date-2pointzero {
+	margin: 0 100px 10px 0;
+}
+
+.new-contacts-field-gender-2pointzero {
+	margin: 0 100px 0 0;
+}
+
+.new-contacts-field-address-2pointzero {
+	width: 800px;
+	margin-bottom: 10px;
+}
+
+.new-contacts-field-system-2pointzero {
+	margin-bottom: 10px;
+}
+
+.new-contacts-field-comname-2pointzero {
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.new-contacts-field-comaddress-2pointzero {
+	width: 750px;
+	margin-bottom: 10px;
+}
+
+.new-contacts-field-position-2pointzero {
+	margin-bottom: 10px;
+}
+
+.new-contacts-field-sponsor-2pointzero {
+	margin-bottom: 10px;
+}
+
+.new-contacts-field-notes-2pointzero {
+	width: 100%;
+	height: 100px;
+}
+
+#new-contacts-add-submit-2pointzero {
+	float: right;
+	margin-right: 10px;
+}
+
+#new-contacts-add-cancel-2pointzero {
+	float: right;
+	margin-right: 10px;
+}
+
+.contacts-success-2pointzero {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.contacts-success-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.contacts-success-2pointzero > center {
+	padding-top: 3%;
+}
+
+.contacts-success-2pointzero > center > span {
+	font-size: 40px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.contacts-fail-2pointzero {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.contacts-fail-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.contacts-fail-2pointzero > center {
+    margin: 5%;
+}
+
+#contact-import-2pointzero {
+	width: 25%;
+	height: 20%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+#contact-import-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.contact-import-form-2pointzero {
+	padding: 10px;
+}
+
+.contact-import-form-2pointzero > input:nth-child(1) {
+	width: 100%;
+}
+
+#contacts-import-submit-2pointzero {
+	float: right;
+	margin-right: 10px;
+}
+
+#contacts-import-cancel-2pointzero {
+	float: right;
+	margin-right: 10px;
+}
+
+#add-per-group {
+	padding-top:230px;
+	opacity:0.7;
+	filter: alpha(opacity=20);
+	background-color:#000; 
+	width:100%; 
+	height:100%; 
+	z-index: 8;
+	top:0; 
+	left:0; 
+	position:fixed;
+}
+
+#view-group-list-2pointzero {
+	width: 300px;
+	height: 550px;
+	float: left;
+	position: fixed;
+	z-index: 6;
+	/* margin-top: 50px; */
+	/* background-color: #000; */
+	overflow-y: auto;
+	overflow-x: auto;
+}
+
+#leftmenuinnerinner {
+height: 100%;
+width: 100%;
+overflow-y: hidden;
+overflow-x: hidden;
+padding-top: 20px;
+}
+
+.view-group-list-2pointzero {
+	width: 90%;
+	margin: 2% 5% 0 5%;
+	text-align: left;
+}
+
+.sortContacts > tr > td > i {
+	width: 25px;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 5px 2px 2px 4px;
+	margin: 0 3px 0 3px;
+	cursor: pointer;
+}
+
+.sortContacts > tr > td > i:nth-child(3) {
+	width: 25px;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 5px 2px 2px 3px;
+	margin: 0 5px 0 5px;
+	cursor: pointer;
+}
+
+.sortContacts > tr > td > i:hover {
+	color: #009C9C;
+}
+
+.view-this-contact-2pointzero {
+	width: 70%;
+	height: 80%;
+	position: fixed;
+	z-index: 7;
+	right: 50%;
+	left: 16%;
+	top: 10%;
+	margin: 10px 0 0 0;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.view-this-contact-2pointzero > h4 {
+	height: 25px;
+	background-color: #0070D2;
+    padding: .5%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.view-this-contact-field-2pointzero {
+	height: 85%;
+	margin: 1%;
+	padding: 10px;
+	border: 1px solid #000;
+	overflow-y: auto;
+}
+
+.view-this-contact-close-2pointzero {
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	padding: 3px;
+}
+
+#update-this-contact-2pointzero {
+	width: 70%;
+	height: 80%;
+	position: fixed;
+	z-index: 7;
+	right: 50%;
+	left: 16%;
+	top: 10%;
+	margin: 10px 0 0 0;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+#update-this-contact-2pointzero > h4 {
+	height: 25px;
+	background-color: #0070D2;
+    padding: .5%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.update-this-contact-field-2pointzero {
+	height: 85%;
+	margin: 1%;
+	padding: 10px;
+	border: 1px solid #000;
+	overflow-y: auto;
+}
+
+#update-contacts-add-submit-2pointzero {
+	float: right;
+	margin-right: 10px;
+}
+
+#update-contacts-add-cancel-2pointzero {
+	float: right;
+	margin-right: 10px;
+}
+
+.update-contacts-field-name-2pointzero {
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.update-contacts-field-email-2pointzero {
+	width: 200px;
+	margin: 0 100px 10px 0;
+}
+
+.update-contacts-field-date-2pointzero {
+	margin: 0 100px 10px 0;
+}
+
+.update-contacts-field-gender-2pointzero {
+	margin: 0 100px 0 0;
+}
+
+.update-contacts-field-address-2pointzero {
+	width: 800px;
+	margin-bottom: 10px;
+}
+
+.update-contacts-field-system-2pointzero {
+	margin-bottom: 10px;
+}
+
+.update-contacts-field-comname-2pointzero {
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.update-contacts-field-comaddress-2pointzero {
+	width: 750px;
+	margin-bottom: 10px;
+}
+
+.update-contacts-field-position-2pointzero {
+	margin-bottom: 10px;
+}
+
+.update-contacts-field-sponsor-2pointzero {
+	margin-bottom: 10px;
+}
+
+.update-contacts-field-notes-2pointzero {
+	width: 100%;
+	height: 100px;
+}
+
+.update-contact-success-2pointzero {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.update-contact-success-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.update-contact-success-2pointzero > center {
+	padding-top: 3%;
+}
+
+.update-contact-success-2pointzero > center > span {
+	font-size: 40px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.trash-contact-notice-2pointzero {
+	width: 25%;
+	height: 18%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.trash-contact-notice-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.trash-contact-notice-2pointzero > center {
+	padding: 3% 3% 0 3%;
+}
+
+.trash-contact-yes-2pointzero {
+	margin: 0 2px 0 0;
+}
+
+.trash-contact-no-2pointzero {
+	margin: 0 0 0 2px;
+}
+
+.trash-contact-success-2pointzero {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: 15% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.trash-contact-success-2pointzero > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.trash-contact-success-2pointzero > center {
+	padding-top: 3%;
+}
+
+.trash-contact-success-2pointzero > center > span {
+	font-size: 40px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.date-search-2pointzero {
+	width: 100px;
+}
+
+/* UI */
+.ui-selected {
+	background-color: orange;
+}
+
+.ui-datepicker-calendar {
+    display: none;
+}
+
+.ui-datepicker-header {
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 4px;
+}
+
+.ui-datepicker-header > a {
+	display: none;
+}
+
+/* v2.1 */
+.register-2point1 {
+	width: 100%;
+	height: 80%;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-color: #fff;
+	margin-top: 100px;
+}
+
+.register-2point1 > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: .33%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.register-form-2point1 {
+	padding: 1%;
+}
+
+.register-form-2point1 > input {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.register-form-2point1 > input:nth-child(1) {
+	width: 400px;
+}
+
+.register-form-2point1 > input:nth-child(2) {
+	width: 350px;
+	margin-right: 200px;
+}
+
+.register-form-2point1 > input:nth-child(3) {
+	width: 350px;
+	margin-right: 50px;
+}
+
+.register-form-2point1 > input:nth-child(4) {
+	width: 250px;
+}
+
+.register-form-2point1 > input:nth-child(5) {
+	margin-right: 200px;
+}
+
+.register-form-2point1 > input:nth-child(6) {
+	margin-right: 200px;
+}
+
+.register-form-2point1 > input:nth-child(7) {
+	margin-right: 50px;
+}
+
+.register-form-2point1 > input:nth-child(8) {
+	margin-right: 100px;
+}
+
+.register-access-2point1 {
+	height: 80%;
+	border: 1px solid #000;
+	margin: 10px 10px 10px -10px;
+}
+
+.register-submit-2point1 {
+	margin-right: 5px;
+}
+
+.register-cancel-2point1 {
+	margin-left: 5px;
+}
+
+.register-dark-2point1 {
+	padding-top:230px;
+    opacity:0.7;
+    filter: alpha(opacity=20);
+    background-color:#000; 
+    width:100%; 
+    height:100%; 
+    z-index:10;
+    top:0; 
+    left:0; 
+    position:fixed; 
+}
+
+.register-success-2point1 {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: -25% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.register-success-2point1 > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.register-success-2point1 > center {
+	padding-top: 3%;
+}
+
+.register-success-2point1 > center > span {
+	font-size: 40px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+#register-email-noval-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: red;
+	margin: -208px 0 0 -285px;
+}
+
+#register-email-inval-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: red;
+	margin: -208px 0 0 -285px;
+}
+
+#register-email-valid-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: green;
+	margin: -208px 0 0 -285px;
+}
+
+#register-user-inval-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: red;
+	margin: -46px 0 0 -390px;
+}
+
+#register-user-valid-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: green;
+	margin: -46px 0 0 -390px;
+}
+
+#register-pass-inval-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: red;
+	margin: 7px 0 0 -95px;
+}
+
+#register-pass-valid-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: green;
+	margin: 7px 0 0 -90px;
+}
+
+.update1-2point1 {
+	width: 40%;
+	height: 80%;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-color: #fff;
+	margin-top: 100px;
+	margin-left: 31%;
+}
+
+.update1-2point1 > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: .8%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.update2-2point1 {
+	width: 100%;
+	height: 80%;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-color: #fff;
+	margin-top: 100px;
+}
+
+.update2-2point1 > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: .33%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.update-form-2point1 {
+	padding: 1%;
+}
+
+.update1-form-2point1 {
+	padding: 1%;
+}
+
+.update1-form-2point1 > input {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.update1-form-2point1 > input:nth-child(1) {
+	width: 400px;
+}
+
+.update1-form-2point1 > input:nth-child(2) {
+	width: 350px;
+	margin-right: 200px;
+}
+
+.update1-form-2point1 > input:nth-child(3) {
+	width: 350px;
+	margin-right: 50px;
+}
+
+.update1-form-2point1 > input:nth-child(4) {
+	width: 250px;
+}
+
+.update1-form-2point1 > input:nth-child(5) {
+	margin-right: 200px;
+}
+
+.update1-form-2point1 > input:nth-child(6) {
+	margin-right: 200px;
+}
+
+.update1-form-2point1 > input:nth-child(7) {
+	margin-right: 50px;
+}
+
+.update1-form-2point1 > input:nth-child(8) {
+	margin-right: 100px;
+}
+
+.update1-access-2point1 {
+	height: 80%;
+	border: 1px solid #000;
+	margin: 10px 10px 10px -10px;
+}
+
+.update-submit-2point1 {
+	margin-right: 5px;
+}
+
+.update-cancel-2point1 {
+	margin-left: 5px;
+}
+
+#update1-email-noval-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: red;
+	margin: -208px 0 0 -285px;
+}
+
+#update1-email-inval-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: red;
+	margin: -208px 0 0 -285px;
+}
+
+#update1-email-valid-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: green;
+	margin: -208px 0 0 -285px;
+}
+
+#update1-user-inval-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: red;
+	margin: -46px 0 0 -390px;
+}
+
+#update1-user-valid-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: green;
+	margin: -46px 0 0 -390px;
+}
+
+#update1-pass-inval-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: red;
+	margin: 7px 0 0 -95px;
+}
+
+#update1-pass-valid-2point1 {
+	position: absolute;
+	z-index: 1;
+	color: green;
+	margin: 7px 0 0 -90px;
+}
+
+.filter-out-2point1 {
+	width: 100%;
+	height: 78%;
+	border: 1px solid #000;
+	overflow-y: auto;
+}
+
+.update-findId-2point1:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+.update-screen-2point1 {
+	padding-top:230px;
+    opacity:0.7;
+    filter: alpha(opacity=20);
+    background-color:#000; 
+    width:100%; 
+    height:100%; 
+    z-index:10;
+    top:0; 
+    left:0; 
+    position:fixed; 
+}
+
+.update-success-2point1 {
+	width: 25%;
+	height: 15%;
+	position: fixed;
+	z-index: 11;
+	left: 62%;
+	margin: -25% 0 0 -25%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.update-success-2point1 > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.update-success-2point1 > center {
+	padding-top: 3%;
+}
+
+.update-success-2point1 > center > span {
+	font-size: 40px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.update-cancel-2point1 {
+	float: right;
+}
+
+.profile-2point1 {
+	width: 48%;
+	height: 45%;
+	float: left;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin: 10% 1% 0 1%;
+}
+
+.profile-2point1 > h4 {
+	height: 25px;
+    background-color: #0070D2;
+    padding: 1%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin: 0;
+}
+
+.profile-data-2point1 {
+	padding: 1%;
+}
+
+.profile-data-2point1 > p {
+	font-size: 20px;
+}
+
+.profile-2-2point1 > .profile-data-2point1 > p > input {
+	width: 75%;
+	float: right;
+}
+
+#profile-user-2point1 {
+	font-size: 20px;
+}
+
+#profile-pass-2point1 {
+	font-size: 20px;
+}
+
+#profile-pass2-2point1 {
+	font-size: 20px;
+}
+
+#prof-user-inval-2point1{
+	color: red;
+	position: absolute;
+	margin: 0 0 0 165px;
+}
+
+#prof-user-valid-2point1{
+	color: green;
+	position: absolute;
+	margin: 0 0 0 175px;
+}
+
+#prof-pass-inval-2point1 {
+	color: red;
+	position: absolute;
+	margin: 25px 0 0 160px;
+}
+
+#prof-pass-valid-2point1 {
+	color: green;
+	position: absolute;
+	margin: 25px 0 0 180px;
+}
+
+.profile-submit-2point1 {
+	margin-top: 55px;
+}
+
+.breadcrumb > li + li:before {
+	content: "";
+}
+
+.updateUserIcon {
+	width: 25px;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 5px 2px 2px 4px;
+	margin: 0 3px 0 3px;
+	cursor: pointer;
+}
