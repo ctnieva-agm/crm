@@ -1,6 +1,7 @@
 <html>
  
 <head>
+	<title>{{$title}}</title>
 	<meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/dashboard.css')}}">
@@ -47,6 +48,11 @@
 				content: userInfo,
 				html:true,
 				placement: 'bottom'
+			});
+			$.ajaxSetup({
+				headers: {
+					'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+				}
 			});
 		});
 		</script>
@@ -97,11 +103,11 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-				<a href="/" class="nav-link @if(Route::currentRouteName() == 'home') active @endif">Home</a>
+				<li class="nav-item @if(Route::currentRouteName() == 'home') active @endif">
+				<a href="{{ route('home') }}" class="nav-link">Home</a>
 				</li>
-				<li class="nav-item">
-					<a href="version2/leadsGrid&page=1" class="nav-link">Lead Pipeline</a>
+				<li class="nav-item @if(Route::currentRouteName() == 'leads') active @endif">
+					<a href="{{ route('leads') }}" class="nav-link">Lead Pipeline</a>
 				</li>
 				<li class="nav-item">
 					<a href="version2/viewVip&page=1" class="nav-link">VIP</a>

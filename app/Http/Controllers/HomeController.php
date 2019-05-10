@@ -8,7 +8,7 @@ use App\Http\Resources\Contact as ContactResource;
 
 class HomeController extends Controller
 {
-    public function view() {
+    public function index() {
         return view('home.landing');
     }
 

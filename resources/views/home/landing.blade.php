@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'CRM - Contacts')
 @section('main')
     @component('layouts.sidenav')
         @slot('source', isset($source) ? $source : "<none>")

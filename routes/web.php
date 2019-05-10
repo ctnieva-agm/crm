@@ -28,7 +28,7 @@ Route::get('logout', function(){
 })->name('logout');
 
 Route::middleware(['auth'])->prefix('home')->group(function(){
-    Route::get('/', 'HomeController@view')->name('home');
+    Route::get('/', 'HomeController@index')->name('home');
     
     Route::get('/source', 'HomeController@source')->name('home.source');
     Route::get('/source/contacts', 'HomeController@sourceContacts')->name('home.source_contacts');
@@ -39,5 +39,14 @@ Route::middleware(['auth'])->prefix('contact')->group(function(){
     Route::post('/import', 'ContactController@import')->name('contact.import');
 });
 
+Route::middleware(['auth'])->prefix('leads')->group(function(){
+    Route::get('/', 'LeadController@index')->name('leads');
+    Route::post('/', 'LeadController@store')->name('leads.store');
+    Route::patch('/{lead}', 'LeadController@update')->name('leads.update');
+    Route::delete('/{lead}', 'LeadController@destroy')->name('leads.destroy');
+    Route::get('/all', 'LeadController@allLeads')->name('leads.all');
+    Route::get('/{lead}/remarks', 'LeadController@remarks')->name('leads.remarks.index');
+    Route::post('/{lead}/remarks', 'LeadController@remarkStore')->name('leads.remarks.store');
+});
 
 
